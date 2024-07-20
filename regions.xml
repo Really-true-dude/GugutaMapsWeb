@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.2.1
+- https://www.phpmyadmin.net
+-
+- Хост: localhost
+- Время создания: Июл 20 2024 г., 18:31
+- Версия сервера: 10.4.28-MariaDB
+- Версия PHP: 8.2.4
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="falcons" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="regions">
+                CREATE TABLE `regions` (
+                  `id_region` int(11) NOT NULL,
+                  `name` varchar(40) NOT NULL,
+                  `description` varchar(150) NOT NULL,
+                  `photo` varchar(200) NOT NULL,
+                  PRIMARY KEY (`id_region`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - База данных: 'falcons'
+    -->
+    <database name="falcons">
+        <!-- Таблица regions -->
+        <table name="regions">
+            <column name="id_region">1</column>
+            <column name="name">Anenii noi</column>
+            <column name="description">A region in central Moldova known for its agricultural activities and proximity to the capital</column>
+            <column name="photo">regions_images/anenii_noi.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">2</column>
+            <column name="name">Balti</column>
+            <column name="description">One of Moldova&#039;s major cities which is often referred to as the &#039;northern capital&#039; known for its industry and commerce</column>
+            <column name="photo">regions_images/balti.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">3</column>
+            <column name="name">Basarabeasca</column>
+            <column name="description">A small region in southern Moldova notable for its railway junction and agricultural production</column>
+            <column name="photo">regions_images/basarabeasca.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">4</column>
+            <column name="name">Bender</column>
+            <column name="description">Also known as Tighina. A city in the disputed region of Transnistria with historical significance and a strategic location on the Dniester River</column>
+            <column name="photo">regions_images/bender.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">5</column>
+            <column name="name">Briceni</column>
+            <column name="description">Located in the northern part of Moldova known for its picturesque landscapes and agricultural economy</column>
+            <column name="photo">regions_images/briceni.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">6</column>
+            <column name="name">Cahul</column>
+            <column name="description">Located in the southern part of the country known for its spa resorts and proximity to the Prut River</column>
+            <column name="photo">regions_images/cahul.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">7</column>
+            <column name="name">Calarasi</column>
+            <column name="description">A region in central Moldova famous for its vineyards and wine production</column>
+            <column name="photo">regions_images/calarasi.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">8</column>
+            <column name="name">Cantemir</column>
+            <column name="description">Situated in southern Moldova known for its scenic beauty and the Prut River valley</column>
+            <column name="photo">regions_images/cantemir.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">9</column>
+            <column name="name">Causeni</column>
+            <column name="description">Located in southeastern Moldova known for its historical sites and fertile lands</column>
+            <column name="photo">regions_images/causeni.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">10</column>
+            <column name="name">Chisinau</column>
+            <column name="description">The capital and largest city of Moldova known for its Soviet-style architecture and large public parks</column>
+            <column name="photo">regions_images/chisinau.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">11</column>
+            <column name="name">Cimislia</column>
+            <column name="description">A region in southern Moldova known for its wineries and agricultural activities</column>
+            <column name="photo">regions_images/cimislia.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">12</column>
+            <column name="name">Criuleni</column>
+            <column name="description">Located near Chișinău known for its scenic landscapes and the Răut River</column>
+            <column name="photo">regions_images/criuleni.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">13</column>
+            <column name="name">Donduseni</column>
+            <column name="description">A northern region known for its agriculture and proximity to the Ukrainian border</column>
+            <column name="photo">regions_images/donduseni.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">14</column>
+            <column name="name">Drochia</column>
+            <column name="description">Situated in the north known for its sugar industry and agricultural production</column>
+            <column name="photo">regions_images/drochia.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">15</column>
+            <column name="name">Dubasari</column>
+            <column name="description">Located on the left bank of the Dniester River in the disputed region of Transnistria known for its hydroelectric power station</column>
+            <column name="photo">regions_images/dubasari.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">16</column>
+            <column name="name">Edinet</column>
+            <column name="description">A northern region known for its diverse landscapes and agricultural output</column>
+            <column name="photo">regions_images/edinet.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">17</column>
+            <column name="name">Falesti</column>
+            <column name="description">Located in the north known for its agricultural activities and cultural heritage</column>
+            <column name="photo">regions_images/falesti.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">18</column>
+            <column name="name">Floresti</column>
+            <column name="description">A northern region known for its rich soil and agricultural production</column>
+            <column name="photo">regions_images/floresti.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">19</column>
+            <column name="name">Glodeni</column>
+            <column name="description">Situated in the north known for its natural reserves and agricultural economy</column>
+            <column name="photo">regions_images/glodeni.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">20</column>
+            <column name="name">Hincesti</column>
+            <column name="description">Located in central Moldova known for its historical sites and wine production</column>
+            <column name="photo">regions_images/hincesti.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">21</column>
+            <column name="name">Ialoveni</column>
+            <column name="description">A region near Chișinău known for its vineyards and wine cellars</column>
+            <column name="photo">regions_images/ialoveni.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">22</column>
+            <column name="name">Leova</column>
+            <column name="description">Located in southern Moldova known for its agricultural activities and proximity to the Prut River</column>
+            <column name="photo">regions_images/leova.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">23</column>
+            <column name="name">Nisporeni</column>
+            <column name="description">A central region known for its monasteries and vineyards</column>
+            <column name="photo">regions_images/nisporeni.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">24</column>
+            <column name="name">Ocnita</column>
+            <column name="description">A northern region notable for its natural beauty and agriculture</column>
+            <column name="photo">regions_images/ocnita.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">25</column>
+            <column name="name">Orhei</column>
+            <column name="description">Known for its rich history and the Orheiul Vechi archaeological complex which includes ancient cave monasteries</column>
+            <column name="photo">regions_images/orhei.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">26</column>
+            <column name="name">Rezina</column>
+            <column name="description">Located in central Moldova known for its industrial activities and the Dniester River</column>
+            <column name="photo">regions_images/rezina.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">27</column>
+            <column name="name">Riscani</column>
+            <column name="description">A northern region known for its agricultural output and natural reserves</column>
+            <column name="photo">regions_images/riscani.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">28</column>
+            <column name="name">Singerei</column>
+            <column name="description">Situated in the north known for its agriculture and proximity to Bălți</column>
+            <column name="photo">regions_images/singerei.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">29</column>
+            <column name="name">Soldanesti</column>
+            <column name="description">A northern region known for its scenic landscapes and agricultural activities</column>
+            <column name="photo">regions_images/soldanesti.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">30</column>
+            <column name="name">Soroca</column>
+            <column name="description">Located in northern Moldova known for its medieval fortress and historical significance</column>
+            <column name="photo">regions_images/soroca.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">31</column>
+            <column name="name">Straseni</column>
+            <column name="description">A central region known for its vineyards and wine production</column>
+            <column name="photo">regions_images/straseni.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">33</column>
+            <column name="name">Taraclia</column>
+            <column name="description">Located in southern Moldova known for its Bulgarian cultural heritage and agriculture</column>
+            <column name="photo">regions_images/taraclia.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">34</column>
+            <column name="name">Telenesti</column>
+            <column name="description">A central region known for its agricultural activities and scenic beauty</column>
+            <column name="photo">regions_images/telenesti.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">35</column>
+            <column name="name">Transnistria</column>
+            <column name="description">A disputed region on the left bank of the Dniester River with a complex political status and diverse industrial base</column>
+            <column name="photo">regions_images/transnistria.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">36</column>
+            <column name="name">Ungheni</column>
+            <column name="description">Located in western Moldova and known for its border crossing with Romania and wine production</column>
+            <column name="photo">regions_images/ungheni.jpg</column>
+        </table>
+        <table name="regions">
+            <column name="id_region">37</column>
+            <column name="name">Unitate Teritoriala Autonoma Gagauzia</column>
+            <column name="description">An autonomous region in southern Moldova known for its unique Gagauz culture and traditions</column>
+            <column name="photo">regions_images/gagauzia.jpg</column>
+        </table>
+    </database>
+</pma_xml_export>
